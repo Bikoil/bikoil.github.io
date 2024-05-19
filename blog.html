@@ -9,21 +9,54 @@
         <meta charset="UTF-8">
         <title>Biko - My Blog</title>
         <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
             body {
                 font-family: 'Courier New', monospace;
                 background-image: linear-gradient(to bottom, #3f3f3f, #1d1d1d); 
                 color: #ffffff;
             }
             footer {
-            background: linear-gradient(135deg, #ff6565, #ff9137);
-            color: #ffffff;
-            text-align: center;
-            padding: 20px 0;
+                background: linear-gradient(135deg, #ff6565, #ff9137);
+                color: #ffffff;
+                text-align: center;
+                padding: 20px 0;
+            }
+            div {
+                color: #adadad
+            }
+            a {
+               color: #ffffff;
+            }
+            a:hover {
+               color: #ff6565;
             }
         </style>
     </head>
     <body>
+        <main>
         <h1> Biko's blog</h1>
         <hr>
+        <div>
+        <h2>
+            <a href=https://bikoil.github.io/blog> ✱Blog1 </a>
+        </h2>
+        <ul>
+            <li>
+                <p>
+                    My description goes here
+                </p>
+            </li>
+        </ul>
+        </div>
+        </main>
+        <footer>
+            <div class="container">
+                <p>GNU general public license, <a href="https://github.com/Bikoil/bikoil.github.io" target="_blank">Code Available on GitHub</a></p>
+            </div>
+        </footer>
     </body>
 </html>
