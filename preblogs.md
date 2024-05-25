@@ -6,7 +6,7 @@ Before you say "oh but i use [software] and it runs well on windows and it's gre
 
 ***
 
-# The Terminal?
+# The Terminal
 The terminal is a place where a user enters commands to make the system do an action, works like a file explorer essentially, but it's actually much more than just that, navigation in the system is efficient and faster than what you expect.
 
 But the terminal isn't just a file explorer, it's the core of the system! other than the kernel of course, The terminal manages everything happening, if an operation exists, it probably can be done via terminal, Well this isn't all! You can download software from the terminal!
