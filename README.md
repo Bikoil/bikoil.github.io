@@ -4,3 +4,5 @@
   - Code files for the website
  
 *if there is anything wrong, please open an issue!*
+
+> The original theme for this website was made by [@pseudify](https://github.com/pseudify)

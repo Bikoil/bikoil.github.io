@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global body styling */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #000000;
+    color: #00FF00;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #000000;
+    padding: 10px 20px;
+    border-bottom: 1px solid #00ff00;
+}
+
+nav ul {
+    list-style: none; /* Ensure no bullet points */
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(72, 255, 0);
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: #00FF00;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-top: 2px solid #00FF00;
+}
+
+/* Container for content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Common layout spacing */
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+/* Header and main title styling */
+header h1, main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    color: #00FF00;
+}
