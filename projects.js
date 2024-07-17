@@ -3,5 +3,5 @@ function isMobile() {
 }
 
 if (isMobile()) {
-    window.location.href = "mobile.html"; // Replace "mobile.html" with the path to your mobile version
+    window.location.href = "projectsm.html"; 
 }
