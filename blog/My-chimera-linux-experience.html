@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Biko">
+        <meta property="og:description" content="Experience with Chimera Linux">
+        <meta property="og:image" content="https://bikoil.github.io/icons/favicon.webp">
+        <meta charset="UTF-8">
+        <title>Biko - My Experience With Chimera Linux</title>
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="blogs.css">
+        <link rel="icon" href="../icons/favicon.webp" type="image/png">
+    </head>
+    <body>
+        <h1>My Experience with <a href="https://chimera-linux.org">Chimera linux </a></h1>
+        <hr>
+        <main>
+            <p>
+                Chimera linux is a very interesting linux distro, it's a linux distro that is more close to FreeBSD as it uses FreeBSD utils and is not the usual GNU/Linux distribution that you'd usually see online such as Debian or Arch Linux
+                <hr>
+                So this linux distribution does seem quite interesting, it uses the alpine's APK package manager (not to be confused with Android Package Kit), And mostly leans into the BSD side of stuff instead of the GNU one, In this blog post I'll be talking about my experience with chimera linux, its upsides, and its downsides 
+            </p> 
+            <p>
+                I started off by booting into the chimera linux x86_64 GNOME ISO image, It went well and upon reviewing the guide in the OS, I realised this was gonna be harder than I expected, I <em>thought</em> It'd have something like a GUI installer, but I was wrong, it actually has a terminal only way of installing.
+                <hr>
+                But that wasnt an issue, as I have installed linux distros like these before via TTY only, so I didn't really worry much, One thing I noted when following the installation guide, is not only that it's very well written, it's also supported on so many computers, I saw RISC-V, Power Macs, RasberryPi, even some PCs I never heard of, So it seemed like the chimera linux devs really put a lot of work into not only making support for so many devices, but also very well written documentations for them. 
+            </p>
+            <p> 
+                This was amazing, I mean, so much support for so many devices AND a well written guide for each one? this is really impressive, and I'd like to thank the Chimera linux devs for their hard work and effort that they put into this.
+                <hr>
+                After installing the distro, which I might say may be even harder than arch's install, I booted up the chimera linux drive to be met with TTY, then I thought that It's a minimal install and I'll install my stuff later, But apparently not?!?
+                <hr>
+                Yea turns out there just wasn't a display manager, but I found out there are gnome DE commands in the tty, So I just guessed they didnt set up a display manager by default, which is fine for me, I just set up SDDM, and upon looking on the DE options... I'm not only met with gnome but also KDE PLASMA?!?!?!?
+                <hr>
+                Apparently both KDE AND gnome are pre-installed when installing from the chimera gnome ISO, Which is absolutely wild for me, I myself only need 1 DE and I was not expecting this at all from a distro that requires a terminal install, heck I don't even use DE's that much I mostly use Window managers 
+            </p>
+            <p>
+                But then I tried opening KDE plasma, and it just did not open, Idk if I am imagining stuff or chimera linux is some kind of drug that made me imagine a DE in my display manager options.
+                <hr>
+                This might be because I messed something up in the install, which I wouldn't doubt because I'm a damn 15 year old programmer, So I can easily make mistakes during the install, I didn't mind that and opened gnome.
+            </p>
+            <p>
+                I started setting up my stuff, most of it was already in the package manager, But I knew I was gonna have to build most of my stuff from source, since there aren't much packages supported in its repositories, like arch linux with its AUR.
+                <hr>
+                I personally don't mind building packages from source, but oh boy was it a ride, first of all, some packages need GNU make to build them, so I had to build GNU make from source, which I did but it had a bunch of issues for some reason, and just refused to function properly.
+                <hr>
+                Getting software like firefox and other simple stuff was really easy, because they were already in the package manager, I was gonna try to get VSCode and <a href="https://github.com/Vencord/Vesktop">Vesktop,</a> But then I found out electron isn't supported on musl, which is the init system that chimera uses, So pretty much just used discord's flatpak and neovim.
+                <hr>
+                But when I tried installing vencord on discord flatpak (which SHOULD be supported), It infact, did not work, So I'm just getting error after error, and my biggest issue here is <em> lack of software support,</em> I even tried to get <a href="https://bedrocklinux.org">Bedrock Linux</a> to get other package managers on it, but I found out that it currently doesn't work because chimera linux uses the FreeBSD userland which has issues with bedrock, but hopefully this should be fixed in 0.8 version of bedrock 
+
+            </p>
+            <p>
+                In conclusion, Chimera Linux is a very interesting distro, But has a big lack of software support and a lack of poularity, which is sad for such an amazing distro, And I'm still experimenting with it, I'll keep you updated with what I'm doing and what I accomplished in it.
+            </p>
+            <footer><em>Written In 2024/9/3, 12 PM EEST</em></footer>
+        </main>
+    </body>
+</html>
