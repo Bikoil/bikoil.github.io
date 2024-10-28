@@ -1,0 +1,22 @@
+{
+  "name": "bikoil.github.io",
+  "version": "1.0.0",
+  "description": "Website for Bikoil",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"haii\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bikoil/bikoil.github.io.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Bikoil",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Bikoil/bikoil.github.io/issues"
+  },
+  "homepage": "https://github.com/Bikoil/bikoil.github.io#readme"
+}
